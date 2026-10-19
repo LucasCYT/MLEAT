@@ -1,0 +1,36 @@
+
+===== female: 600 SNPs, baseline test MSE = 34.606 =====
+prioritization set (Kneedle) = 10, high-confidence set (FDR<=5%) = 4
+         SNP                        role  effect_cm_per_allele  rank     dMSE  in_prioritization_set  in_high_confidence_set
+rsSIM00351_A                      causal             -1.337413     5 0.850253                   True                   False
+rsSIM00196_A                      causal              1.568678     3 1.218643                   True                    True
+rsSIM00012_T                      causal              1.277342    10 0.222337                   True                   False
+rsSIM00532_G                      causal              1.593190     1 2.602058                   True                    True
+rsSIM00530_C                      causal              1.245211     9 0.452673                   True                   False
+rsSIM00131_A                      causal             -1.282449    11 0.220996                  False                   False
+rsSIM00317_C                      causal              1.474481     2 2.341518                   True                    True
+rsSIM00553_G                      causal              0.930726    47 0.051040                  False                   False
+rsSIM00480_G                      causal             -1.277045     8 0.692088                   True                   False
+rsSIM00141_T                      causal              1.425561     6 0.841048                   True                   False
+rsSIM00225_T proxy (high LD with causal)              0.000000     7 0.796376                   True                   False
+rsSIM00440_G proxy (high LD with causal)              0.000000     4 1.090385                   True                    True
+rsSIM00221_C proxy (high LD with causal)              0.000000    14 0.166593                  False                   False
+high-confidence SNPs that are neither causal nor proxy: 0
+
+===== male: 600 SNPs, baseline test MSE = 33.853 =====
+prioritization set (Kneedle) = 16, high-confidence set (FDR<=5%) = 5
+         SNP                        role  effect_cm_per_allele  rank     dMSE  in_prioritization_set  in_high_confidence_set
+rsSIM00351_A                      causal             -1.337413     7 0.519432                   True                   False
+rsSIM00196_A                      causal              1.568678     5 0.767384                   True                    True
+rsSIM00012_T                      causal              1.277342    23 0.110623                  False                   False
+rsSIM00532_G                      causal              1.593190     1 1.931977                   True                    True
+rsSIM00530_C                      causal              1.245211     4 0.819814                   True                    True
+rsSIM00131_A                      causal             -1.282449     9 0.378140                   True                   False
+rsSIM00317_C                      causal              1.474481    10 0.332456                   True                   False
+rsSIM00553_G                      causal              0.930726    19 0.117209                  False                   False
+rsSIM00480_G                      causal             -1.277045     3 1.058182                   True                    True
+rsSIM00141_T                      causal              1.425561     2 1.211141                   True                    True
+rsSIM00225_T proxy (high LD with causal)              0.000000     8 0.509820                   True                   False
+rsSIM00440_G proxy (high LD with causal)              0.000000     6 0.681018                   True                   False
+rsSIM00221_C proxy (high LD with causal)              0.000000    31 0.089872                  False                   False
+high-confidence SNPs that are neither causal nor proxy: 0
